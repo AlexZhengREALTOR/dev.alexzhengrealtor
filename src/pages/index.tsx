@@ -1,5 +1,6 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
+import Layout from "../components/layout"
 
 const pageStyles = {
   color: "#232129",
@@ -138,6 +139,30 @@ const links = [
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
+    <>
+    <Layout pageTitle="Home Page">
+      <p>
+        Alex Zheng is a member of the Houston Association of REALTORS®, the Texas Association of REALTORS®, and the National Association of REALTORS®. He is currently a real estate agent with <a href="https://alexzheng.levitaterealestate.com" target="_blank">Levitate Real Estate</a>.
+      </p>
+      <p>
+        Based in northwest Houston, just north of the Energy Corridor, by Jersey Village and Cypress, Alex has been a Texan homeowner since 2014, and has intimate knowledge of The Lakes on Eldridge North gained through his time both living within the neighborhood and acting as a property manager.
+      </p>
+      <p>
+        Alex was born in Tulsa, Oklahoma, but he came to Texas as soon as he could 🤠 Ask him where he's from, and he'll tell you Houston for short, but he grew up all over. He spent some time growing up in Sugar Land, as well as the Dallas-Fort Worth area.
+      </p>
+      <p>
+        After graduating from the International School of Kuala Lumpur, Alex turned down an offer from the University of Texas at Austin's Electrical Engineering program, and chose instead to follow in his father's footsteps. He sought to join the oil and gas industry, and graduated with a Bachelor of Science in Petroleum Engineering from the University of Tulsa. He went on to pursue a Master in Business Administration from the University of Missouri with concentrations in Finance and Marketing Analytics.
+      </p>
+      <p>
+        If you choose to work with Alex, you'll be working with an agent who is dead serious when it comes to business and the commitments he makes. He maintains high standards and is meticulous. Alex goes beyond merely pushing paper and opening doors: he has leveled concrete, installed wood flooring, sweated pipe, evacuated and recharged refrigerant gas systems, replaced start-run capacitors, worked with structured wiring, and added breakers to electrical panels.
+      </p>
+      <p>
+        When Alex is not working on behalf of his clients he can be found doting on his furkid, Paul the Yorkie; taking care of his property; or banging away on the piano.
+      </p>
+      <p>
+        Ready to experience what a great agent can do for you? <a href="contact">Contact Alex</a> today!
+      </p>
+    </Layout>
     <main style={pageStyles}>
       <h1 style={headingStyles}>
         Congratulations
@@ -185,6 +210,7 @@ const IndexPage: React.FC<PageProps> = () => {
         src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
       />
     </main>
+    </>
   )
 }
 
