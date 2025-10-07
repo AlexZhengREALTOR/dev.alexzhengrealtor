@@ -7,7 +7,10 @@ const IndexPage: React.FC<PageProps> = () => {
     <>
     <Layout pageTitle="Contact">
       <p>
-        Alex is ready and excited to help you with all your real estate needs. Call, text, or email: I look forward to hearing from you!
+        Alex is ready and excited to help you with all your real estate needs!
+      </p>
+      <p>
+        Call, text, or email to get started!
       </p>
       <address>
         <p>

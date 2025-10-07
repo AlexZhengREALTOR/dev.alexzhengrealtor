@@ -34,4 +34,9 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Alex Zheng, REALTOR®</title>
+export const Head: HeadFC = () => {
+  <>
+    <title>Alex Zheng, REALTOR®</title>
+    <meta name="description" content="Alex Zheng, REALTOR® is a real estate agent based in Houston, TX, with Levitate Real Estate." />
+  </>
+}
