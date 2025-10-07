@@ -5,9 +5,9 @@ import Layout from "../components/layout"
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
-    <Layout pageTitle="Home Page">
+    <Layout pageTitle="Alex Zheng (郑), MBA, REALTOR®">
       <p>
-        Alex Zheng is a member of the Houston Association of REALTORS®, the Texas Association of REALTORS®, and the National Association of REALTORS®. He is currently a real estate agent with <a href="https://alexzheng.levitaterealestate.com" target="_blank">Levitate Real Estate</a>.
+        Alex Zheng is a member of the <a href="https://www.har.com/alex-zheng/agent_alexzheng" rel="me" target="_blank">Houston Association of REALTORS®</a>, the Texas Association of REALTORS®, and the National Association of REALTORS®. He is currently a real estate agent with <a href="https://alexzheng.levitaterealestate.com" target="_blank">Levitate Real Estate</a>.
       </p>
       <p>
         Based in northwest Houston, just north of the Energy Corridor, by Jersey Village and Cypress, Alex has been a Texan homeowner since 2014, and has intimate knowledge of The Lakes on Eldridge North gained through his time both living within the neighborhood and acting as a property manager.
@@ -25,7 +25,7 @@ const IndexPage: React.FC<PageProps> = () => {
         When Alex is not working on behalf of his clients he can be found doting on his furkid, Paul the Yorkie; taking care of his property; or banging away on the piano.
       </p>
       <p>
-        Ready to experience what a great agent can do for you? <a href="contact">Contact Alex</a> today!
+        Ready to experience what a great agent can do for you? <a href="/contact">Contact Alex</a> today!
       </p>
     </Layout>
     </>
